@@ -1,0 +1,1 @@
+include ':buyerTool',':nahuolibrary',':picture_library', ':ucrop',':jcvideoplayer-lib', ':upyun-android-sdk',':imageeditlibrary',':SmallVideoLib2','baserecyclerlibrary','windowpermission'

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+
+    <com.nahuo.library.controls.CircleImageView2
+        android:id="@+id/vendor_item_shopCover"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/vendor_item_userid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="15dp"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="@string/vendor_item_userid"
+        android:textColor="@color/vendor_userid"
+        android:textSize="@dimen/fontsize_title_button_middle" />
+
+    <TextView
+        android:id="@+id/vendor_item_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/vendor_item_username"
+        android:textSize="@dimen/fontsize_content_default" />
+
+
+    <TextView
+        android:id="@+id/vendor_apppy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="10dp"
+        android:background="#5f65e6"
+        android:padding="8dp"
+        android:text="申请代理"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+</RelativeLayout>

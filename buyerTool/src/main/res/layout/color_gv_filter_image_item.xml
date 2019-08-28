@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginLeft="5dp"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:id="@+id/rl_cen"
+        android:layout_centerInParent="true">
+        <RelativeLayout
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerInParent="true"
+            >
+            <ImageView
+                android:id="@+id/fiv"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@color/color_f6" />
+
+            <ImageView
+                android:id="@+id/iv_guan"
+                android:layout_width="53dp"
+                android:layout_height="80dp"
+                android:visibility="gone"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/bg_re_red"/>
+            </RelativeLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/ll_del"
+            android:layout_width="30dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:gravity="right"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_del"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="center"
+                android:src="@drawable/delet_zhaopian_1x" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_duration"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/buybuybuy"
+            android:drawableLeft="@drawable/video_icon"
+            android:drawablePadding="5dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:paddingTop="8dp"
+            android:text="00:00"
+            android:textColor="@color/white"
+            android:textSize="11sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_is_upload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="5dp"
+            android:background="@color/orange"
+            android:gravity="center_vertical"
+            android:padding="2dp"
+            android:text="未传"
+            android:textColor="@color/white"
+            android:textSize="11sp"
+            android:visibility="gone" />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/tv_color"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="话说"
+        android:textSize="13sp"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/item_detail_text"
+        android:layout_below="@+id/rl_cen"
+         />
+</LinearLayout>

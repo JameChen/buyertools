@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context="com.nahuo.buyertool.activity.PicActivity">
+    <ImageView
+        android:id="@+id/finish"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:scaleType="center"
+        android:src="@drawable/jc_click_back_selector" />
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_toRightOf="@+id/finish"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:layout_height="60dp" />
+    <ImageView
+        android:id="@+id/iv_pic"
+        android:layout_below="@+id/finish"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</RelativeLayout>

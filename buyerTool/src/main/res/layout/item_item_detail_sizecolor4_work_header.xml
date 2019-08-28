@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="12">
+
+    <RelativeLayout style="@style/rl_style_head">
+
+        <CheckBox
+            android:id="@+id/item_detail_sizecolor_cb_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/item_detail_sizecolor_item_1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:text="颜色" />
+
+    <TextView
+        android:id="@+id/item_detail_sizecolor_item_2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:text="尺码" />
+
+    <TextView
+        android:id="@+id/item_detail_sizecolor_item_3"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:text="拼货数" />
+
+    <TextView
+        android:id="@+id/item_detail_sizecolor_item_stock"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:text="库存数" />
+
+    <TextView
+        android:id="@+id/item_detail_sizecolor_item_4"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:gravity="center"
+        android:text="开单数量" />
+</LinearLayout>

@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:id="@+id/contentView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                style="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="28dp"
+                android:layout_marginRight="28dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center|left"
+                android:text="上传转款标识："
+                android:textSize="16sp" />
+
+
+            <EditText
+                android:id="@+id/et_new_flag"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="28dp"
+                android:layout_marginRight="28dp"
+                android:layout_marginTop="6dp"
+                android:gravity="center_vertical"
+                android:hint="以后标题后面的买手代号及日期"
+                android:textSize="14sp" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                style="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="28dp"
+                android:layout_marginRight="28dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center|left"
+                android:text="要替换的关键词："
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="28dp"
+                android:layout_marginRight="28dp"
+                android:gravity="center|left"
+                android:text="@string/edit_chang_str"
+                android:textColor="@color/txt_gray"
+                android:textSize="13sp" />
+
+            <EditText
+                android:id="@+id/et_old"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="28dp"
+                android:layout_marginRight="28dp"
+                android:layout_marginTop="6dp"
+                android:gravity="center_vertical"
+                android:hint="请输入要替换的关键词"
+                android:textSize="14sp" />
+
+
+            <View
+                android:id="@+id/titleDivider"
+                android:layout_width="match_parent"
+                android:layout_height="2dip"
+                android:background="#ff33b5e5"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                style="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="28dp"
+                android:layout_marginRight="28dp"
+                android:layout_marginTop="6dp"
+                android:gravity="center|left"
+                android:text="新关键词："
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/et_new"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="28dp"
+                android:layout_marginRight="28dp"
+                android:layout_marginTop="6dp"
+                android:gravity="left"
+                android:hint="请输入新的关键词"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="28dp"
+                android:layout_marginRight="28dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="排单"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/et_single_row"
+                    style="@style/edittext_gray_bg"
+                    android:layout_width="80dp"
+                    android:layout_height="36dp"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:hint="-1"
+                    android:inputType="numberSigned"
+                    android:numeric="integer" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center_vertical"
+                    android:text="天" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="28dp"
+                android:layout_marginRight="28dp"
+                android:gravity="center|left"
+                android:text="-1表示不修改排单，0表示取消排单"
+                android:textColor="@color/txt_gray"
+                android:textSize="13sp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="28dp"
+                android:layout_marginRight="28dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="成团"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/et_group_row"
+                    style="@style/edittext_gray_bg"
+                    android:layout_width="80dp"
+                    android:layout_height="36dp"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:hint="-1"
+                    android:inputType="numberSigned"
+                    android:numeric="integer" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center_vertical"
+                    android:text="件" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="28dp"
+                android:layout_marginRight="28dp"
+                android:gravity="center|left"
+                android:text="-1表示不修改排单，0表示取消排单"
+                android:textColor="@color/txt_gray"
+                android:textSize="13sp" />
+        </LinearLayout>
+        </LinearLayout>
+        </ScrollView>
+<!--ddd-->
+
+        <View
+            android:id="@+id/bottomDivider"
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="#33999999" />
+
+        <LinearLayout
+            android:id="@+id/ll_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_cancle"
+                style="?android:attr/textAppearanceSmall"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/selector_dialog_button"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:text="取消"
+                android:textColor="@android:color/black"
+                android:visibility="visible" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#33999999"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/btn_ok"
+                style="?android:attr/textAppearanceSmall"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/selector_dialog_button"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:text="确定"
+                android:textColor="#d13535" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

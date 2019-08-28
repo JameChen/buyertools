@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:padding="16dp" >
+
+    <LinearLayout
+        android:id="@+id/contentView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:minHeight="64dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="?android:attr/textAppearanceLarge"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:drawablePadding="8dp"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:text="是否批量克隆"/>
+
+        </LinearLayout>
+
+
+
+        <View
+            android:id="@+id/bottomDivider"
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="#33999999" />
+
+        <LinearLayout
+            android:id="@+id/ll_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_cancle"
+                style="?android:attr/textAppearanceSmall"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/selector_dialog_button"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:text="取消"
+                android:textColor="@android:color/black"
+                android:visibility="visible"/>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#33999999"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/btn_ok"
+                style="?android:attr/textAppearanceSmall"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/selector_dialog_button"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:text="批量克隆"
+                android:textColor="#d13535" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

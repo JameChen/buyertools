@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layout_item_shop_season"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:weightSum="10">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="3"
+            android:text="季节"
+            android:textSize="@dimen/fontsize_upload_item_left" />
+
+        <TextView
+            android:id="@+id/tv_name_sel"
+            style="@style/edittext_noborder_style"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/tv_height_m"
+            android:layout_weight="7"
+            android:gravity="center"
+            android:hint="选择季节"
+            android:paddingRight="30dp"
+            android:singleLine="true"
+            android:textColor="#8e8d92"
+            android:textColorHint="#8e8d92"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <!-- 商品简介-->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_height_mid1"
+        android:background="@color/bg_gray" />
+</LinearLayout>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/line_gray"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+      >
+
+        <LinearLayout
+            android:id="@+id/ll_check"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp">
+
+            <CheckBox
+                android:id="@+id/checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/light_blue"
+                android:enabled="false"
+                android:clickable="false"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_iv"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/ll_check"
+            android:layout_toEndOf="@+id/ll_check">
+
+            <ImageView
+                android:id="@+id/iv_cover"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/contact_qq" />
+
+            <TextView
+                android:id="@+id/tv_if_show"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#c3000000"
+                android:paddingBottom="2dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="2dp"
+                android:textColor="@color/white"
+                android:textSize="10sp"
+                android:text="已显示"/>
+
+            <TextView
+                android:id="@+id/tv_if_shelves"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="#c3000000"
+                android:paddingBottom="2dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="2dp"
+                android:text="已显示"
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/tv_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_cover"
+                android:paddingLeft="2dp"
+                android:paddingTop="5dp"
+                android:text="11"
+                android:textColor="#ae0213"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/rl_iv"
+            android:id="@+id/rl_right"
+            >
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="15dp"
+                android:text=""
+                android:lines="3"
+                android:ellipsize="end"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/tv_remark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_name"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:text=""
+                android:textColor="@color/gray"
+                android:lines="2"
+                android:ellipsize="end"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_remark"
+                android:layout_alignParentRight="true"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingRight="5dp">
+                <TextView
+                    android:id="@+id/tv_set_istock"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#a16af9"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/my_style_text_side" />
+                <TextView
+                    android:id="@+id/tv_set_if_show"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/gray"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/my_style_text_side" />
+
+                <TextView
+                    android:id="@+id/tv_set_copy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:background="@color/light_blue"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="复制"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/my_style_text_side" />
+                <TextView
+                    android:id="@+id/tv_on_shelves"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:background="#ab0460"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="上架"
+                    android:visibility="gone"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/my_style_text_side" />
+                <TextView
+                    android:id="@+id/tv_set_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:background="#04ab57"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="编辑"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/my_style_text_side" />
+
+                <TextView
+                    android:id="@+id/tv_set_shelves"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:background="@color/red"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="下架"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/my_style_text_side" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

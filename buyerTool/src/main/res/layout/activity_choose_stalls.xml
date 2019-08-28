@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="搜索档口:"
+            android:textSize="14sp"></TextView>
+
+        <com.nahuo.library.controls.AutoCompleteTextViewEx
+            android:id="@+id/et_search"
+            style="@style/edittext_one_style"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            android:layout_weight="6"
+            android:drawableRight="@drawable/txt_clear_bg"
+            android:hint="点号隔开,例如中国.1.405或1.405"
+            android:imeOptions="actionSearch"
+            android:singleLine="true"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_search"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="2"
+            android:background="@color/actionsheet_blue"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="搜索"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="市场:"
+            android:textSize="14sp"></TextView>
+
+        <TextView
+            android:id="@+id/tv_market"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="8"
+            android:background="@color/line_gray"
+            android:gravity="center"
+            android:text="市场"
+            android:textColor="@color/actionsheet_blue"
+            android:textSize="14sp"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="楼层:"
+            android:textSize="14sp"></TextView>
+
+        <TextView
+            android:id="@+id/tv_floor"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="8"
+            android:background="@color/line_gray"
+            android:gravity="center"
+            android:text="楼层"
+            android:textColor="@color/actionsheet_blue"
+            android:textSize="14sp"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="档口:"
+            android:textSize="14sp"></TextView>
+
+        <TextView
+            android:id="@+id/tv_stall"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="8"
+            android:background="@color/line_gray"
+            android:gravity="center"
+            android:text="档口"
+            android:textColor="@color/actionsheet_blue"
+            android:textSize="14sp"></TextView>
+    </LinearLayout>
+</LinearLayout>

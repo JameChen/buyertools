@@ -1,0 +1,42 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    repositories {
+        jcenter()
+        maven {url 'https://maven.google.com'}
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.3.1'
+        classpath 'com.tencent.bugly:symtabfileuploader:1.0.6'
+        classpath 'com.novoda:bintray-release:0.3.4'
+    }
+}
+//ext {
+//    compileSdkVersion = 23
+//    buildToolsVersion = "25.0.0"
+//    minSdkVersion = 16
+//    targetSdkVersion = 21
+//    versionCode = 1
+//    versionName = "v1.0"
+//    proguard = true
+//    rootPrj = "$projectDir/.."
+//    ndkAbi = 'armeabi'//, 'armeabi-v7a', 'arm64-v8a'
+//    noffmpeg = false
+//    noijkplay = false
+//}
+
+allprojects {
+    repositories {
+        mavenCentral()
+        flatDir {
+            dirs 'src/main/jniLibs'
+        }
+        jcenter()
+        maven {url 'https://maven.google.com'}
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+

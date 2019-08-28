@@ -1,0 +1,167 @@
+
+{
+	"buildFiles" : [ "D:/asfilessave/buyertoolandroid/SmallVideoLib2/CMakeLists.txt" ],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"D:\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\asfilessave\\buyertoolandroid\\SmallVideoLib2\\.externalNativeBuild\\cmake\\debug\\arm64-v8a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"avcodec-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "avcodec",
+			"buildType" : "debug",
+			"output" : "D:/asfilessave/buyertoolandroid/SmallVideoLib2/src/main/jniLibs/arm64-v8a/libavcodec.so",
+			"toolchain" : "1534523253"
+		},
+		"avfilter-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "avfilter",
+			"buildType" : "debug",
+			"output" : "D:/asfilessave/buyertoolandroid/SmallVideoLib2/src/main/jniLibs/arm64-v8a/libavfilter.so",
+			"toolchain" : "1534523253"
+		},
+		"avformat-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "avformat",
+			"buildType" : "debug",
+			"output" : "D:/asfilessave/buyertoolandroid/SmallVideoLib2/src/main/jniLibs/arm64-v8a/libavformat.so",
+			"toolchain" : "1534523253"
+		},
+		"avutil-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "avutil",
+			"buildType" : "debug",
+			"output" : "D:/asfilessave/buyertoolandroid/SmallVideoLib2/src/main/jniLibs/arm64-v8a/libavutil.so",
+			"toolchain" : "1534523253"
+		},
+		"fdk-aac-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "fdk-aac",
+			"buildType" : "debug",
+			"output" : "D:/asfilessave/buyertoolandroid/SmallVideoLib2/src/main/jniLibs/arm64-v8a/libfdk-aac.so",
+			"toolchain" : "1534523253"
+		},
+		"jx_ffmpeg_jni-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "jx_ffmpeg_jni",
+			"buildCommand" : "D:\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\asfilessave\\buyertoolandroid\\SmallVideoLib2\\.externalNativeBuild\\cmake\\debug\\arm64-v8a --target jx_ffmpeg_jni",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=D:/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/sdk/ndk-bundle/sysroot  -Djx_ffmpeg_jni_EXPORTS -I..\\..\\..\\..\\ffmpeg-3.2.5 -isystem D:\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\arm64-v8a\\include -isystem D:\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/asfilessave/buyertoolandroid/SmallVideoLib2/src/main/cpp/jx_yuv_encode_h264.cpp",
+					"workingDirectory" : "D:/asfilessave/buyertoolandroid/SmallVideoLib2/.externalNativeBuild/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=D:/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/sdk/ndk-bundle/sysroot  -Djx_ffmpeg_jni_EXPORTS -I..\\..\\..\\..\\ffmpeg-3.2.5 -isystem D:\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\arm64-v8a\\include -isystem D:\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/asfilessave/buyertoolandroid/SmallVideoLib2/src/main/cpp/jx_pcm_encode_aac.cpp",
+					"workingDirectory" : "D:/asfilessave/buyertoolandroid/SmallVideoLib2/.externalNativeBuild/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=D:/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/sdk/ndk-bundle/sysroot  -Djx_ffmpeg_jni_EXPORTS -I..\\..\\..\\..\\ffmpeg-3.2.5 -isystem D:\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\arm64-v8a\\include -isystem D:\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/asfilessave/buyertoolandroid/SmallVideoLib2/src/main/cpp/jx_media_muxer.cpp",
+					"workingDirectory" : "D:/asfilessave/buyertoolandroid/SmallVideoLib2/.externalNativeBuild/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=D:/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/sdk/ndk-bundle/sysroot  -Djx_ffmpeg_jni_EXPORTS -I..\\..\\..\\..\\ffmpeg-3.2.5 -isystem D:\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\arm64-v8a\\include -isystem D:\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/asfilessave/buyertoolandroid/SmallVideoLib2/src/main/cpp/jx_jni_handler.cpp",
+					"workingDirectory" : "D:/asfilessave/buyertoolandroid/SmallVideoLib2/.externalNativeBuild/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=D:/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/sdk/ndk-bundle/sysroot  -Djx_ffmpeg_jni_EXPORTS -I..\\..\\..\\..\\ffmpeg-3.2.5 -isystem D:\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\arm64-v8a\\include -isystem D:\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/asfilessave/buyertoolandroid/SmallVideoLib2/src/main/cpp/jx_ffmpeg_jni.cpp",
+					"workingDirectory" : "D:/asfilessave/buyertoolandroid/SmallVideoLib2/.externalNativeBuild/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=D:/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/sdk/ndk-bundle/sysroot  -Djx_ffmpeg_jni_EXPORTS -I..\\..\\..\\..\\ffmpeg-3.2.5 -isystem D:\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\arm64-v8a\\include -isystem D:\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/asfilessave/buyertoolandroid/SmallVideoLib2/src/main/cpp/threadsafe_queue.cpp",
+					"workingDirectory" : "D:/asfilessave/buyertoolandroid/SmallVideoLib2/.externalNativeBuild/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=D:/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/sdk/ndk-bundle/sysroot  -Djx_ffmpeg_jni_EXPORTS -I..\\..\\..\\..\\ffmpeg-3.2.5 -isystem D:\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\arm64-v8a\\include -isystem D:\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/asfilessave/buyertoolandroid/SmallVideoLib2/src/main/cpp/jx_log.cpp",
+					"workingDirectory" : "D:/asfilessave/buyertoolandroid/SmallVideoLib2/.externalNativeBuild/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=D:/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/sdk/ndk-bundle/sysroot -Djx_ffmpeg_jni_EXPORTS -I..\\..\\..\\..\\ffmpeg-3.2.5  -isystem D:/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "D:/asfilessave/buyertoolandroid/SmallVideoLib2/src/main/cpp/cmdutils.c",
+					"workingDirectory" : "D:/asfilessave/buyertoolandroid/SmallVideoLib2/.externalNativeBuild/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=D:/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/sdk/ndk-bundle/sysroot -Djx_ffmpeg_jni_EXPORTS -I..\\..\\..\\..\\ffmpeg-3.2.5  -isystem D:/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "D:/asfilessave/buyertoolandroid/SmallVideoLib2/src/main/cpp/ffmpeg.c",
+					"workingDirectory" : "D:/asfilessave/buyertoolandroid/SmallVideoLib2/.externalNativeBuild/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=D:/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/sdk/ndk-bundle/sysroot -Djx_ffmpeg_jni_EXPORTS -I..\\..\\..\\..\\ffmpeg-3.2.5  -isystem D:/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "D:/asfilessave/buyertoolandroid/SmallVideoLib2/src/main/cpp/ffmpeg_filter.c",
+					"workingDirectory" : "D:/asfilessave/buyertoolandroid/SmallVideoLib2/.externalNativeBuild/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=D:/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/sdk/ndk-bundle/sysroot -Djx_ffmpeg_jni_EXPORTS -I..\\..\\..\\..\\ffmpeg-3.2.5  -isystem D:/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "D:/asfilessave/buyertoolandroid/SmallVideoLib2/src/main/cpp/ffmpeg_opt.c",
+					"workingDirectory" : "D:/asfilessave/buyertoolandroid/SmallVideoLib2/.externalNativeBuild/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=D:/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/sdk/ndk-bundle/sysroot -Djx_ffmpeg_jni_EXPORTS -I..\\..\\..\\..\\ffmpeg-3.2.5  -isystem D:/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "D:/asfilessave/buyertoolandroid/SmallVideoLib2/src/main/cpp/jx_ffmpeg_cmd_run.c",
+					"workingDirectory" : "D:/asfilessave/buyertoolandroid/SmallVideoLib2/.externalNativeBuild/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=D:/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/sdk/ndk-bundle/sysroot  -Djx_ffmpeg_jni_EXPORTS -I..\\..\\..\\..\\ffmpeg-3.2.5 -isystem D:\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\arm64-v8a\\include -isystem D:\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/asfilessave/buyertoolandroid/SmallVideoLib2/src/main/cpp/jx_ffmpeg_config.cpp",
+					"workingDirectory" : "D:/asfilessave/buyertoolandroid/SmallVideoLib2/.externalNativeBuild/cmake/debug/arm64-v8a"
+				}
+			],
+			"output" : "D:/asfilessave/buyertoolandroid/SmallVideoLib2/build/intermediates/cmake/debug/obj/arm64-v8a/libjx_ffmpeg_jni.so",
+			"toolchain" : "1534523253"
+		},
+		"swresample-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "swresample",
+			"buildType" : "debug",
+			"output" : "D:/asfilessave/buyertoolandroid/SmallVideoLib2/src/main/jniLibs/arm64-v8a/libswresample.so",
+			"toolchain" : "1534523253"
+		},
+		"swscale-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "swscale",
+			"buildType" : "debug",
+			"output" : "D:/asfilessave/buyertoolandroid/SmallVideoLib2/src/main/jniLibs/arm64-v8a/libswscale.so",
+			"toolchain" : "1534523253"
+		}
+	},
+	"toolchains" : 
+	{
+		"1534523253" : 
+		{
+			"cCompilerExecutable" : "D:/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "D:/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="10">
+
+    <RelativeLayout style="@style/rl_style">
+
+        <CheckBox
+            android:id="@+id/item_detail_sizecolor_cb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+
+        <TextView
+            android:id="@+id/item_detail_sizecolor_item_duan_huo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="断货"
+            android:layout_centerInParent="true"
+            android:textColor="#FF0000"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/item_detail_sizecolor_item_1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:text="颜色" />
+
+    <TextView
+        android:id="@+id/item_detail_sizecolor_item_2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:text="尺码" />
+
+    <TextView
+        android:id="@+id/item_detail_sizecolor_item_3"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:text="已拼" />
+
+    <TextView
+        android:id="@+id/item_detail_sizecolor_item_4"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:text="开单" />
+
+    <TextView
+        android:id="@+id/item_detail_sizecolor_item_5"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:text="入仓" />
+</LinearLayout>
